@@ -1,4 +1,17 @@
-header {
-    background-color: var(--bg-primary);
-    height: 8vh;
+.navbar {
+    background-color: var(--bg-primary);    
+    display: flex;
+    align-items: center;
+    height: 8%;
+}
+
+.brand-label {
+    color: black;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.nav-menu {
+    list-style: none;
+    font-size: 1.2rem;
 }

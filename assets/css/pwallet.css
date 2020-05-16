@@ -2,9 +2,22 @@
 @import "./style.css";
 
 @import "../themes/theme-light.css";
+@import "./responsive.css";
+@import "./sidebar.css";
 
 *, ::before, ::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+main {
+    height: 92%;
+    display: flex;
+    flex-direction: row;
 }

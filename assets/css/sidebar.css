@@ -1,0 +1,27 @@
+.sidebar {
+  width: 300px;   
+  height: 100%;
+  background-color: var(--bg-sidebar-primary);
+}
+
+.sidebar ul {
+    margin: 20px 15px;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.side-nav-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+    display: block;
+    background-color: white;
+    padding: 15px 0 15px 25px;
+}
+.side-nav-link:hover {
+    background-color: rgb(223, 213, 213);   
+}
