@@ -19,4 +19,111 @@
     overflow-y: auto;
     height: 100%;
     width: 100%;
+    padding: 5px;
+}
+
+.card {
+    height: 100%;
+    padding: 10px;
+    background-color: var(--bg-card-background-primary);
+}
+
+.table {
+    text-align: left;
+}
+
+.table-padding tr td, th {
+    padding: 5px;
+}
+
+.text-link {
+    color: blue;
+}
+
+.title-divider  {
+    margin: 10px 0;
+    border: 1.5px solid darkgray;
+}
+
+ul.activity-list {
+    list-style: none;
+}
+
+ul.activity-list li {
+    margin: 3px 0;
+    padding: 10px 5px;
+    background-color: whitesmoke;
+    font-size: 18px;
+}
+
+.btn {
+    padding: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn-primary {
+    background-color: #FF9966;
+    color: white;
+}
+
+.btn-primary:active {
+    background-color: rgb(223, 94, 30);
+}
+
+
+.btn-round {
+    border-radius: 8px;
+}
+
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.search-container {
+    flex-grow: 1;
+}
+
+.search-input {
+    height: 35px;
+    border: 0;
+    border-radius: 8px;
+    width: 30%;
+}
+
+.contact-table tr td {
+    padding: 10px;
+}
+.align-right-self {
+    
+}
+
+.contact-group-item {
+    display: flex;
+    flex-direction: row;   
+    padding: 5px 10px;
+}
+.contact-group-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-right: 1px solid darkgray;
+}
+.contact-lists {
+    flex-grow: 1;
+}
+
+.card .search-bar {
+    height: 4%;
+}
+
+.card .contacts-wrapper {
+    height: 93%;
+    overflow-y: auto;
+}
+
+.title-sticky {
+    position: sticky;
+    top: 0;
 }
