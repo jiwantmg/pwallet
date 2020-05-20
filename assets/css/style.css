@@ -93,8 +93,15 @@ ul.activity-list li {
     width: 30%;
 }
 
-.contact-table tr td {
+.contact-table {
+    list-style: none;
+}
+.contact-table li {
     padding: 10px;
+}
+
+.contact-table li a {
+    text-decoration: none;
 }
 .align-right-self {
     
@@ -126,4 +133,14 @@ ul.activity-list li {
 .title-sticky {
     position: sticky;
     top: 0;
+}
+
+.contact-list-item {
+    cursor: pointer;
+}
+
+.flex-row-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }

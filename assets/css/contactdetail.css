@@ -1,0 +1,31 @@
+.contact-view-card {
+    height: 100%;
+}
+
+.contact-view-card .card-title {
+    height: 5%;
+}
+
+.contact-view-card .card-body {
+    height: 90%;
+}
+
+.contact-view-card .card-footer {
+    height: 5%;
+}
+
+.contact-table {
+    text-align: left;
+}
+
+.card-body {
+    position: relative;
+}
+
+.contact-image {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    height: 200px;
+    width: auto;
+}
