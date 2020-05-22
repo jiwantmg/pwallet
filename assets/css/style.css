@@ -74,6 +74,7 @@ ul.activity-list li {
 
 .btn-round {
     border-radius: 8px;
+    text-decoration: none;
 }
 
 
@@ -102,9 +103,6 @@ ul.activity-list li {
 
 .contact-table li a {
     text-decoration: none;
-}
-.align-right-self {
-    
 }
 
 .contact-group-item {

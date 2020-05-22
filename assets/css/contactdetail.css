@@ -7,11 +7,12 @@
 }
 
 .contact-view-card .card-body {
-    height: 90%;
+    height: 78%;
 }
 
 .contact-view-card .card-footer {
-    height: 5%;
+    height: 10%;
+    background-color: #CCCCCC;
 }
 
 .contact-table {
